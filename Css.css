@@ -1,0 +1,64 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+    background-image: url(kiss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+  font-weight: bold;
+  color: Black;
+  font-size: 80px;
+  margin: -150px 0 40px;
+}
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+}
+
+.tiem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2 {
+    font-weight: bold;
+    color: Black;
+    font-size: 46px;
+    line-height: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.time small {
+    color: Black;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 45px;
+    }
+    .time {
+        margin: 5px;
+    }
+    .time small {
+        font-size: 10px;
+    }
+}
