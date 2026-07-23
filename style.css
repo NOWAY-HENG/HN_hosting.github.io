@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(snow.avif);
+    background-image: url(kiss.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -19,7 +19,7 @@ body {
 
 h1 {
   font-weight: bold;
-  color: white;
+  color: Black;
   font-size: 80px;
   margin: -150px 0 40px;
 }
@@ -39,7 +39,7 @@ h1 {
 
 .time h2 {
     font-weight: bold;
-    color: white;
+    color: Black;
     font-size: 46px;
     line-height: 1;
     margin-left: 15px;
@@ -48,7 +48,7 @@ h1 {
 }
 
 .time small {
-    color: wheat;
+    color: Black;
 }
 
 @media (max-width: 500px) {
